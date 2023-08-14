@@ -64,8 +64,9 @@ interface I_Cars {
 
 // assume this is an express application, we will get the req and res
 // for simplicity, I directly create a function that will only accept one params
-// e.g of express code
+// e.g of how the express code should be
 // app.get('/cars', carController.getCars)
+// const getCars = (req, res) => { ... }
 
 
 // Controller
